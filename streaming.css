@@ -39,7 +39,7 @@ a{
 header a {text-decoration: none;}
 header a:link {color: white;}
 header a:visited {color: lightblue;}
-header a:focus {outline: none; color: lightblue;}
+header a:focus {outline: none;}
 header a:hover { color: lightblue;}
 header a:active {color: lightblue;}
 
