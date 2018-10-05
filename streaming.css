@@ -39,22 +39,19 @@ a{
 header a {text-decoration: none;}
 header a:link {color: white;}
 header a:visited {color: lightblue;}
-header a:focus {outline: none}
+header a:focus {outline: none; color: lightblue;}
 header a:hover { color: lightblue;}
 header a:active {color: lightblue;}
 
-/*__________ responsiv sida __________*/
+/*__________ small window ( >= 700px) __________*/
 @media (max-width: 860px) {
-
   nav {
     margin-left: 10%;
     margin-right: 10%;
-
   }
 }
 
 @media (max-width: 700px) {
-
   header {
     justify-content: center;
   }
@@ -63,7 +60,7 @@ header a:active {color: lightblue;}
     display: none;
   }
 }
-/*____________________________________*/
+/*_____________________________________________*/
 
 main {
   margin: 20px;
